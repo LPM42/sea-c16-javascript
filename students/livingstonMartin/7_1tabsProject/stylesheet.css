@@ -1,0 +1,60 @@
+body {
+	background:url('images/fruit-background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: arial;
+}
+
+h1 {
+	text-align: center;
+	background-color: rgba(255,0,0,0.7);
+	height: 1.5em;
+	width: 20em;
+	border-radius: 30%;
+	border: 2px solid black;
+}
+
+.all-reviews > div {
+	display: none;
+}
+
+
+.review p {
+	text-align: center;
+}
+
+.review h2 {
+	text-align: center;
+	font-size: 1.6em
+}
+
+.rating {
+	color: red;
+	font-weight: bold;
+}
+
+.tab {
+	position: relative;
+	display: inline-block;
+	height: 1.5em;
+	width: 10em;
+	border-radius: 100%;
+	border: 2px solid black;
+	margin-left: 5px;
+	margin-top: 5px;
+	text-align: center;
+	background-color: rgba(0,225,40,0.6);;
+	font-size: 1.1em;
+}
+
+.tabSelected {
+	background-color: green;
+}
+
+.fruitPicture {
+	width: 23em;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
